@@ -8,6 +8,8 @@ Este repositorio está estructurado en diferentes temas clave de JavaScript:
 
 ### 1. Variables y Tipos de Datos
 
+Las variables almacenan datos. Se pueden declarar con var, let o const.
+
 ```js
 var nombre = "Pedro"; // String
 let cedula = "123456789"; // String
@@ -29,6 +31,8 @@ Object (objeto)    { nombre: "Pedro", edad: 25 }
 ```
 
 ### 3. Operadores Aritméticos
+
+Los operadores permiten realizar operaciones con variables y valores.
 
 ```js
 let suma = 7 + 8;
@@ -53,6 +57,8 @@ alert("Mañana hay examen de bases de datos");
 ```
 
 ### 5. Condicionales
+
+Las estructuras de control permiten ejecutar código según condiciones
 
 ```js
 let nombre = prompt("Ingresa tu nombre: ");
