@@ -25,8 +25,12 @@ let exponente = 5 ** 2;
 
 console.log(suma, resta, multiplicacion, division, modulo, exponente);
 
+//comando para insertar un mensaje
 let saludo = "hola ";
 let persona = prompt("ingresa tu nombre: ");
+let mensaje = saludo + persona;
+console.log(mensaje);
 
+//alert(mensaje); // muestra un mensaje en la pantalla
 console.log(saludo, persona);
 alert("mañana hay examen de bases de datos");
