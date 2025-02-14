@@ -71,3 +71,58 @@ if (edadNueva > 18) {
   console.log(nombre, "Tienes 18 años");
 }
 ```
+
+### 6. Arreglos y Métodos más Usados
+
+Un **arreglo** es una estructura de datos que permite almacenar múltiples valores en una sola variable.
+
+```js
+let frutas = ["Manzana", "Banana", "Uva", "Naranja"];
+console.log(frutas[0]); // Accede al primer elemento "Manzana"
+```
+
+#### Métodos más usados en arreglos:
+
+```js
+// Agregar elementos al final
+frutas.push("Mango");
+console.log(frutas); // ["Manzana", "Banana", "Uva", "Naranja", "Mango"]
+
+// Eliminar el último elemento
+frutas.pop();
+console.log(frutas); // ["Manzana", "Banana", "Uva", "Naranja"]
+
+// Agregar elementos al inicio
+frutas.unshift("Fresa");
+console.log(frutas); // ["Fresa", "Manzana", "Banana", "Uva", "Naranja"]
+
+// Eliminar el primer elemento
+frutas.shift();
+console.log(frutas); // ["Manzana", "Banana", "Uva", "Naranja"]
+
+// Encontrar la posición de un elemento
+let indice = frutas.indexOf("Uva");
+console.log(indice); // 2
+
+// Eliminar un elemento por su índice
+frutas.splice(indice, 1);
+console.log(frutas); // ["Manzana", "Banana", "Naranja"]
+
+// Copiar una parte del arreglo
+let nuevasFrutas = frutas.slice(1, 3);
+console.log(nuevasFrutas); // ["Banana", "Naranja"]
+
+// Recorrer un arreglo con forEach
+frutas.forEach(fruta => console.log(fruta));
+
+// Transformar elementos con map
+let mayusculas = frutas.map(fruta => fruta.toUpperCase());
+console.log(mayusculas); // ["MANZANA", "BANANA", "NARANJA"]
+
+// Filtrar elementos
+let filtradas = frutas.filter(fruta => fruta.length > 5);
+console.log(filtradas); // ["Banana", "Naranja"]
+
+// Verificar si un elemento existe en el arreglo
+console.log(frutas.includes("Manzana")); // true
+```
