@@ -126,3 +126,34 @@ console.log(filtradas); // ["Banana", "Naranja"]
 // Verificar si un elemento existe en el arreglo
 console.log(frutas.includes("Manzana")); // true
 ```
+
+### 7. Bucles y Funciones
+
+Los bucles permiten repetir un bloque de código varias veces.
+
+#### Bucles en JavaScript:
+
+```js
+// Bucle for
+for (let i = 0; i < 5; i++) {
+  console.log("Iteración número", i);
+}
+
+// Bucle while
+let contador = 0;
+while (contador < 5) {
+  console.log("Contador en", contador);
+  contador++;
+}
+
+// Bucle do-while
+let num = 0;
+do {
+  console.log("Número", num);
+  num++;
+} while (num < 5);
+
+// forEach para recorrer un arreglo
+let numeros = [1, 2, 3, 4, 5];
+numeros.forEach(num => console.log(num));
+```
