@@ -27,3 +27,21 @@ do {
   console.log(j); // funcion a cumplirse
   j = j + 1; // incrementamos j en 1
 } while (j < 0); // mientras j sea menor que 10
+
+// bucle for
+/*
+La estructura for permite crear bucles que se ejecutan ninguna o más veces,
+dependiendo de la condición indicada.
+El funcionamiento del bucle for se resume en: se inicializa una
+variable, se evalúa una condición y se incrementa la variable.
+*/
+console.log("for");
+let num1 = parseInt(prompt("Introduce un número"));
+console.log("tabla de multiplicar del", num1);
+if (isNaN(num1)) {
+  console.log("Introduce un número válido");
+} else {
+  for (let i = 1; i <= 12; i++) {
+    console.log(num1, "X", i, "=", num1 * i);
+  }
+}
