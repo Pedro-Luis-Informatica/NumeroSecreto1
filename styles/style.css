@@ -86,3 +86,10 @@ h2 {
     font-size: 32px;
     font-weight: 400;
 }
+button{
+    padding: 15px 25px;
+    font-size: 25px;
+    color: #010801;
+    background-color: rgb(149, 149, 149);
+    margin-top: 25px;
+}
